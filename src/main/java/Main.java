@@ -1,10 +1,24 @@
 public class Main {
     public static void main(String[] args) {
+        LogicalOp logicalOp=new LogicalOp();
+
+        int biggest = logicalOp.checkBiggerNumber(2,3);
+        System.out.println("The bigger number is: " + biggest);
+
+        System.out.println(logicalOp.verificaretext("FastTrackIT", logicalOp.second));
+        System.out.println(logicalOp.verificare("FastTrack", 2));
+        System.out.println(logicalOp.maimareoptsauegalsase(9));
+        System.out.println(logicalOp.maimaretreisauegalpatru(3));
+        System.out.println(logicalOp.numberswich(5));
+        System.out.println(logicalOp.isNumberEven(18));
+        System.out.println(logicalOp.isEligibleToVote(17));
+        System.out.println(logicalOp.maimare(77,2,55));
+
+
+
         Calculator calculator=new Calculator();
-        //System.out.println(calculator.getModelfata());
 
         System.out.println(calculator.getExercitiulunu());
-
         System.out.println(calculator.getAfisarecerintadoi());
         System.out.println(calculator.getPrimmulnumar());
         System.out.println(calculator.getAldoileanumar());
