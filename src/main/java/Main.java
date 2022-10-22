@@ -9,7 +9,7 @@ public class Main {
         System.out.println(logicalOp.verificare("FastTrack", 2));
         System.out.println(logicalOp.maimareoptsauegalsase(9));
         System.out.println(logicalOp.maimaretreisauegalpatru(3));
-        System.out.println(logicalOp.numberswich(1));
+        System.out.println(logicalOp.numberswich(3));
         System.out.println(logicalOp.isNumberEven(18));
         System.out.println(logicalOp.isEligibleToVote(17));
         System.out.println(logicalOp.maimare(77,2,55));
