@@ -51,7 +51,9 @@ public class LogicalOp {
     }
 
     //exercitiul 8
-    public String numberswich(int number) {
+
+    public static void numberswich() {
+        int number =7;
         switch (number) {
             case 1:
                 System.out.println("The number is: 1!");
@@ -83,8 +85,9 @@ public class LogicalOp {
             case 10:
                 System.out.println("The number is: 10!");
                 break;
+            default:
+                System.out.println("The number must be in the range 1-10");
         }
-        return "The number must be in the range 1-10";
     }
 
     //exercitiul 9
